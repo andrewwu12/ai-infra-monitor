@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-23T14:46:39.143047+00:00",
-  "heat_index": 61.8,
+  "timestamp": "2026-02-24T14:49:45.107820+00:00",
+  "heat_index": 61.9,
   "phase_probabilities": {
     "acceleration": 0.35,
     "peak_intensity": 0.35,
@@ -77,10 +77,10 @@
       }
     },
     "macro_constraint": {
-      "score": 31.0,
+      "score": 30.7,
       "weight": -0.2,
       "details": {
-        "10y_yield": 4.08,
+        "10y_yield": 4.03,
         "10y_2y_spread": 0.6,
         "fed_funds_rate_pct": 4.0,
         "hy_credit_spread_bps": 310,
@@ -89,7 +89,7 @@
         "unemployment_pct": 4.1,
         "vix": 16.5,
         "power_cost_index": 115,
-        "rate_pressure": 41.6,
+        "rate_pressure": 40.6,
         "curve_stress": 32.0,
         "credit_pressure": 26.0,
         "inflation_pressure": 20.0,
@@ -98,34 +98,38 @@
     }
   },
   "yield_curve": {
-    "date": "02/20/2026",
+    "date": "02/23/2026",
     "maturities": {
       "1m": 3.72,
       "2m": 3.74,
       "3m": 3.69,
-      "6m": 3.61,
-      "1y": 3.51,
-      "2y": 3.48,
-      "3y": 3.5,
-      "5y": 3.65,
-      "7y": 3.85,
-      "10y": 4.08,
-      "20y": 4.66,
-      "30y": 4.72
+      "6m": 3.62,
+      "1y": 3.5,
+      "2y": 3.43,
+      "3y": 3.45,
+      "5y": 3.59,
+      "7y": 3.79,
+      "10y": 4.03,
+      "20y": 4.63,
+      "30y": 4.7
     },
     "spreads": {
       "10y_2y": 0.6,
-      "10y_3m": 0.39,
-      "30y_10y": 0.64
+      "10y_3m": 0.34,
+      "30y_10y": 0.67
     },
     "yoy_comparison": {
-      "comparison_date": "02/20/2025",
-      "10y_change_bps": -42.0,
-      "2y_change_bps": -80.0,
-      "10y_2y_spread_prev": 0.22,
-      "10y_2y_spread_change": 0.38
+      "comparison_date": "02/24/2025",
+      "10y_change_bps": -37.0,
+      "2y_change_bps": -70.0,
+      "10y_2y_spread_prev": 0.27,
+      "10y_2y_spread_change": 0.33
     },
     "recent_trend_10y": [
+      {
+        "date": "02/23/2026",
+        "yield": 4.03
+      },
       {
         "date": "02/20/2026",
         "yield": 4.08
@@ -141,10 +145,6 @@
       {
         "date": "02/17/2026",
         "yield": 4.05
-      },
-      {
-        "date": "02/13/2026",
-        "yield": 4.04
       }
     ]
   },
@@ -287,7 +287,7 @@
     "Hyperscaler capex TTM $268B (+50% YoY) - unprecedented investment pace",
     "NVDA data center revenue $135B TTM (+73% YoY) - book-to-bill 1.4x",
     "Cloud growth 27% with 10ppt AI contribution - monetization pathway emerging",
-    "10Y yield at 4.08% - rates elevated but stable, not yet constraining tech investment"
+    "10Y yield at 4.03% - rates elevated but stable, not yet constraining tech investment"
   ],
   "stress_signals": [
     "Capex consuming 58% of operating cash flow on average - approaching sustainability limits",

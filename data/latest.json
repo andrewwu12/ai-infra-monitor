@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T15:22:17.329957+00:00",
+  "timestamp": "2026-04-10T14:47:57.741683+00:00",
   "heat_index": 61.5,
   "phase_probabilities": {
     "acceleration": 0.35,
@@ -77,11 +77,11 @@
       }
     },
     "macro_constraint": {
-      "score": 32.7,
+      "score": 32.6,
       "weight": -0.2,
       "details": {
         "10y_yield": 4.29,
-        "10y_2y_spread": 0.5,
+        "10y_2y_spread": 0.51,
         "fed_funds_rate_pct": 4.0,
         "hy_credit_spread_bps": 310,
         "ig_credit_spread_bps": 85,
@@ -90,7 +90,7 @@
         "vix": 16.5,
         "power_cost_index": 115,
         "rate_pressure": 45.8,
-        "curve_stress": 35.0,
+        "curve_stress": 34.7,
         "credit_pressure": 26.0,
         "inflation_pressure": 20.0,
         "power_pressure": 30
@@ -98,34 +98,38 @@
     }
   },
   "yield_curve": {
-    "date": "04/08/2026",
+    "date": "04/09/2026",
     "maturities": {
-      "1m": 3.67,
-      "2m": 3.71,
-      "3m": 3.69,
-      "6m": 3.73,
-      "1y": 3.69,
-      "2y": 3.79,
-      "3y": 3.78,
-      "5y": 3.92,
+      "1m": 3.66,
+      "2m": 3.69,
+      "3m": 3.68,
+      "6m": 3.71,
+      "1y": 3.68,
+      "2y": 3.78,
+      "3y": 3.77,
+      "5y": 3.91,
       "7y": 4.1,
       "10y": 4.29,
-      "20y": 4.87,
-      "30y": 4.89
+      "20y": 4.88,
+      "30y": 4.9
     },
     "spreads": {
-      "10y_2y": 0.5,
-      "10y_3m": 0.6,
-      "30y_10y": 0.6
+      "10y_2y": 0.51,
+      "10y_3m": 0.61,
+      "30y_10y": 0.61
     },
     "yoy_comparison": {
-      "comparison_date": "04/08/2025",
-      "10y_change_bps": 3.0,
-      "2y_change_bps": 8.0,
-      "10y_2y_spread_prev": 0.55,
-      "10y_2y_spread_change": -0.05
+      "comparison_date": "04/09/2025",
+      "10y_change_bps": -5.0,
+      "2y_change_bps": -13.0,
+      "10y_2y_spread_prev": 0.43,
+      "10y_2y_spread_change": 0.08
     },
     "recent_trend_10y": [
+      {
+        "date": "04/09/2026",
+        "yield": 4.29
+      },
       {
         "date": "04/08/2026",
         "yield": 4.29
@@ -141,10 +145,6 @@
       {
         "date": "04/03/2026",
         "yield": 4.35
-      },
-      {
-        "date": "04/02/2026",
-        "yield": 4.31
       }
     ]
   },
